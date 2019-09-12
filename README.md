@@ -1,1 +1,1 @@
-# AlgorithmDesign
+# AlgorithmDesign Daily Excise
