@@ -32,7 +32,7 @@ case3, root.val < targte, go to right subtree by recursion
  *     TreeNode(int x) { val = x; }
  * }
  */
-
+// O(logn) O(1)
 class Solution {
     public TreeNode deleteNode(TreeNode root, int key) {
         if(root == null) return null;
