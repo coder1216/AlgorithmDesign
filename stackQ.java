@@ -23,7 +23,7 @@ class Solution{
 
         }
         public int peek(){
-
+            
         }
     }
 } 
