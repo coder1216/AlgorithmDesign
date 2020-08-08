@@ -11,7 +11,7 @@
 //Bad 	time
 public class Singleton {
 	// fields
-private static Singleton INSTANCE;	
+private static Singleton INSTANCE;
 
 	// methods
 	private Singleton() {
@@ -30,8 +30,8 @@ private static Singleton INSTANCE;
 //Bad	space
 public class Singleton {
 	// fields
-private static final Singleton INSTANCE = new Singleton();	
-	
+private static final Singleton INSTANCE = new Singleton();
+
 	// static {}
 
 	// methods
@@ -47,7 +47,7 @@ private static final Singleton INSTANCE = new Singleton();
 // Builder Pattern: 一个object / Class 里可能有很多个不同的optional fields
 // class User with fields
 
-public class User { 
+public class User {
 	// fields
 	private final int id; // @GenerateId
 	private final String username; // required
@@ -95,13 +95,13 @@ public static class UserBuilder {
 		private final String lastname;
 		private String phone;
 		private String address;
-		private String email;	
+		private String email;
 
 	public UserBuilder(String username, String password) {
 		this.username = builder.username;
 		this.password = builder.password;
 	}
-	
+
 	// all the methods below are for managing fileds set or get
 	public UserBuilder phone(String phone) {
 		this.phone = phone;
@@ -121,6 +121,6 @@ public static class UserBuilder {
 
 		User.Userbuilder builder = new User.UserBuilder("weijun", "li");
 		builder.phone("2132681234").age(12).address('gaga');
-		User user = builder.build();	
+		User user = builder.build();
 	}
 }

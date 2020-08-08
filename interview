@@ -1,0 +1,7 @@
+// "static void main" must be defined in a public class.
+import java.util.*;
+public class interview {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
+}

@@ -89,7 +89,7 @@ PriorityQueue<Integer> maxHeap = new PriorityQueue<>(k, new Comparator<Integer>(
 		if (a == b) return 0 ?
 		return a < b ? -1 : 1;
 	}
-}); 
+});
 for(int i = 0; i < array.length; i++) {
 	if(maxHeap.size() < k) {
 		maxHeap.offer(array[i]);

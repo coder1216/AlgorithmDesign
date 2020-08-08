@@ -37,6 +37,7 @@ public class MinimizeTheSentence {
     private static boolean isWord(char c){
         return (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z');
     }
+    
     public static void main(String[] args){
         
         String s = "      , ^ you say, you & & are you may say You good.";
